@@ -1,0 +1,53 @@
+.profile-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 220px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  border: 1px solid rgb(251, 225, 242);
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile-card h2 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+}
+.profile-card p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.like-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #ff6b81;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.like-btn:hover {
+  background-color: #ff4757;
+}
+.follow-btn {
+  background-color: #3498db; /* Blue for unfollowed */
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+}
+
+.follow-btn.followed {
+  background-color: #2ecc71; /* Green for followed */
+}
